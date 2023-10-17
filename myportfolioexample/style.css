@@ -1,0 +1,325 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+
+}
+
+main {
+    position: absolute;
+    width: 85%;
+    right: 0px;
+    background-color: rgb(116, 142, 142);
+   
+   
+    
+}
+
+.navbar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(155, 187, 187);
+
+
+}
+
+.navbar img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.navbar h1 {
+    font-size: 20px;
+    padding: 2px;
+    margin:20px;
+
+}
+
+.navbar span {
+    font-size: 15px;
+    color: rgb(100, 103, 105);
+}
+
+.navbar .icons1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navbar li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.navbar i:hover {
+    color: crimson;
+}
+
+.navbar li:hover {
+    color: crimson;
+}
+
+.div2 h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* .div2 p {
+    display: contents;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+
+} */
+
+.div2 hr {
+    border: 4px solid rgb(156, 150, 150);
+    border-radius: 10px;
+}
+
+.icons-and-filter {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    
+}
+
+
+.div2 button {
+    border: none;
+    width: 10%;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.div2 button:hover {
+    background-color: rgb(146, 152, 146);
+
+}
+
+.div3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div77 img {
+    width: 95%;
+    height: 60%;
+    border-radius: 1px;
+    margin: 15px;
+    
+}
+.div77 img:hover {
+    opacity: 0.7;
+  
+}
+
+.div3 p{
+    margin: 10px 0px 10px 14px;
+    background-color: rgb(132, 148, 164);
+    width: 96%;
+    height: 25%;
+}
+
+.about-me{
+    margin: 20px;
+    font-size: 20px;
+}
+.about-me .images{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+   
+  
+   
+}
+.about-me img{
+    margin: 20px;
+    width: 90%;
+    height: 40%;
+
+}
+.skills{
+    
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+.skills h2{
+    margin-top: 30px;
+    color: black;
+    font-weight: 5;
+}
+.skills span{
+    margin-left:40px;
+}
+.skills p{
+    text-align: center;
+    
+    border-radius: 10px;
+    color: rgb(250, 242, 242);
+    background-color: rgb(20, 19, 19);
+    width: 90%;
+    height: 30px;
+    padding-top:9px ;
+}
+
+.skills button{
+    color: rgb(237, 237, 248);
+    background-color: grey;
+    border-radius: 10px;
+    width: 15%;
+    height: 5vh;
+    margin-top: 20px;
+}
+.skills button:hover{
+    background-color: rgb(155, 187, 187);
+    color: black;
+    
+}
+.charge{
+    margin-left: 15px;
+    margin-top: 40px;
+   
+}
+
+.charge .text h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.charge  .box1{
+    /* border: 1px solid rgb(168, 48, 48);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 500px; */
+    border: 1px solid black;
+    width: 400px;
+    height:fit-content;
+    justify-content: center;
+    margin: 10px;
+    
+       
+        
+      
+    
+}
+.charge .boxs{
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+   
+} 
+.charge .head1{
+    padding: 30px;
+    border-bottom: 1px solid gray ;
+    color: wheat;
+    background-color: rgb(38, 36, 34);
+}
+.charge .head1:hover{
+    opacity: 0.5;
+}
+.charge .body1{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    background-color: rgb(195, 209, 209);
+
+}
+.contact-me h2{
+    margin: 20px;
+}
+.contact-me .icons-contact {
+    display: flex;
+    justify-content: center;
+  
+    margin: 10px;
+    padding: 10px;
+
+}
+.contact-me .icon-contact1{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(47, 75, 83);
+}
+.contact-me .icon-contact1:hover{
+    opacity: 0.5;
+}
+
+.contact-me .icon-contact1 span{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     color: wheat;
+}
+
+.contact-me .contact-me-form{
+    width: 90%;
+        padding: 20px;
+        margin: 20px ;
+        display: inline-block;
+        border: 1px solid #d8cece;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: rgb(83, 100, 107);
+}
+.contact-me .contact-me-form input{
+        width: 100%;
+        background-color: #dbe3db;
+        color: white;
+        padding: 20px;
+        margin: 8px ;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.contact-me .contact-me-form button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+    
+}
+.footer1  .part-1{
+    width: 100%;
+ padding-top: 80px;
+   
+    background-color:rgb(94, 110, 117);
+    padding: 40px;
+}
+.footer1 p{
+    width: 100%;
+    font-size: 20px;
+}
+.footer1 .buttons{
+    display: flex;
+    flex-direction: column;
+   ;
+}
+.footer1 .buttons span{
+    width: 400px;
+    padding: 40px;
+    background-color: rgb(94, 110, 117);
+
+    
+}
+.footer1 .buttons span:hover{
+    background-color: black;
+    color: wheat;
+    opacity: 0.5;
+}
